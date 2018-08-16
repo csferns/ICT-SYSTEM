@@ -1,0 +1,225 @@
+﻿body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-large;
+}
+
+/* Div elements */
+
+.page-container {
+    height: auto;
+    width: 100%;
+}
+
+.header-container {
+    height: 100vh;
+    width: 15vw;
+    padding: 0.5%;
+    background-color: #333;
+    border: 2px solid black;
+    float: left;
+}
+
+.header-logo {
+    height: 12vh;
+    width: 16vw;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.header-navigation-desktop {
+    height: 80vh;
+    width: 13vw;
+    padding: 0.5%;
+    background-image: linear-gradient(10deg, #2c3e50 0%, #3498db 100%);
+    margin: auto;
+}
+
+.header-navigation-links {
+    display: flex;
+    justify-content: center;
+    height: 59vh;
+    width: 9vw;
+    float: left;
+}
+
+.header-navigation-sitenav {
+    height: 10vh;
+    width: 13vw;
+    padding: 0.5%;
+    margin: auto;
+}
+
+.header-navigation-mobile {
+    display: none;
+    height: auto;
+    width: 100vw;
+    padding: 0.5%;
+    background-image: linear-gradient(10deg, #2c3e50 0%, #3498db 100%);
+    float: right;
+    text-align: center;
+}
+
+.main {
+    height: 100vh;
+    width: 79vw;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: auto;
+    float: right;
+}
+
+.print {
+    display: none;
+}
+
+/* Text elements */
+
+.header-text {
+    color: white;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.content-title {
+    font-weight: bold;
+    color: black;
+}
+
+.content-text {
+    font-weight: lighter;
+    color: black;
+    font-size: medium;
+}
+
+.navigation-content {
+    font-weight: lighter;
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+.navigation-text {
+    font-size: inherit;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.page-text {
+    font-size: inherit;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.invoice-text {
+    font-size: xx-large;
+    color: black;
+}
+
+/* Button elements */
+
+a.header, a.header:visited {
+    height: auto;
+    width: 100%;
+    color: white;
+    padding: 0.5%;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
+}
+
+    a.header:hover {
+        color: antiquewhite;
+    }
+
+/* Page breadcrumbs */
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    color: black;
+}
+
+    /* Display list items side by side */
+    ul.navigation li {
+        display: inline-block;
+        font-size: large;
+    }
+
+        /* Add a slash symbol (/) before/behind each list item */
+        ul.navigation li + li:before {
+            padding: 0;
+            color: black;
+            content: "/\00a0";
+        }
+
+        /* Add a color to all links inside the list */
+        ul.navigation li a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+.breadcrumbs-table {
+    float: right;
+    background-color: none;
+    width: 100%;
+}
+
+/* Mobile support */
+@media screen and (max-width: 1250px) {
+    /* Div Elements */
+    .header-container {
+        height: 12vh;
+    }
+
+    .header-logo {
+        width: 100%;
+    }
+
+    .header-navigation-desktop {
+        display: none;
+    }
+
+    .header-navigation-mobile {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* Text elements */
+
+    .header-text {
+        font-size: large;
+    }
+
+    a.header {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-text {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-text {
+        font-size: small;
+    }
+}
+
+/* Table elements */
+
+.add-table {
+    width: 100%;
+    height: auto;
+}

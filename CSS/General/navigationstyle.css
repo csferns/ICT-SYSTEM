@@ -1,0 +1,33 @@
+﻿.navigation {
+    width: auto;
+    height: 7vh;
+    margin: auto;
+    padding-left: 1%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    text-align: left;
+}
+
+.navigationtable {
+    background-color: white;
+    width: auto;
+    margin: auto auto 1px;
+    height: 6vh;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.auto-style1 {
+    background-color: white;
+    width: 100%;
+    margin: auto auto;
+    height: 100%;
+}
+
+.auto-style3 {
+    margin: auto;
+    width: 16%;
+    height: 100%;
+}

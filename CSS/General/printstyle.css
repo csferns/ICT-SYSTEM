@@ -1,0 +1,17 @@
+﻿@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+    h1.title {
+        color: black;
+    }
+
+    .maintext {
+        height: 83vh;
+    }
+}
+
+@page {
+    margin: auto;
+}

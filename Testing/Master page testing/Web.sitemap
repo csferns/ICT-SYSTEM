@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="/Testing/Master page testing/Default.aspx" title="Homepage"  description="Site's homepage">
+    <siteMapNode title="Orders">
+      <siteMapNode url="/Testing/Master page testing/Content/ViewOrder.aspx" title="View Order"  description="" />
+      
+    </siteMapNode>
+    
+    <siteMapNode title="Orders">
+      <siteMapNode url="/Testing/Master page testing/Content/ViewCustomer.aspx" title="View Customer"  description="" />
+    </siteMapNode>
+    
+    <siteMapNode title="Orders">
+      <siteMapNode url="/Testing/Master page testing/Content/ViewProduct.aspx" title="View Products"  description="" />
+    </siteMapNode>
+    
+  </siteMapNode>
+</siteMap>

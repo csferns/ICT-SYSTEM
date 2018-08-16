@@ -1,0 +1,17 @@
+﻿@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+    .print {
+        display: block;
+    }
+
+    .header-logo {
+        float: right;
+    }
+}
+
+@page {
+    margin: auto;
+}

@@ -1,0 +1,13 @@
+.ordertable {
+	width: 50%;
+	height: 60%;
+	border: 2px solid black;
+	float: left;
+	
+}
+
+table {
+	background-color: white;
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+}

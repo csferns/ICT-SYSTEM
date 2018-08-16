@@ -1,0 +1,131 @@
+﻿a.demopicture {
+    border: 2px solid black;
+    width: 30%;
+    height: 20%;
+}
+
+button.orderrecord {
+    width: 100%;
+    height: 25%;
+    display: inline-block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-color: #404040;
+    cursor: pointer;
+}
+
+a.orderrecord, a.orderrecord:visited {
+    width: 100%;
+    height: 25%;
+    display: inline-block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-color: #4863A0;
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+select.quantityfield {
+    width: 100%;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.maincontentleft {
+    background-color: white;
+    border-top: none;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin:auto;
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    float: left;
+}
+
+.buttonsright {
+    background-color: white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-top: none;
+    height: 65%;
+    width: 20%;
+    float: right;
+}
+
+.topcontent {
+    background-color: white;
+    border: 2px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.tableproduct, .tablequantity {
+    width: 33.3%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 24%;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin: auto;
+    border-left: 2px solid black;
+    border-right:none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    float: left;
+}
+
+.tableprice {
+    width: 33.3%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 24%;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    float: left;
+}
+
+.orderdate {
+    height: auto;
+    width: auto;
+}
+
+select.quantityfield {
+
+}
