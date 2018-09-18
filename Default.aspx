@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="\CSS\General\navigationstyle.css" />
     <title>Homepage</title>
     <link rel="shortcut icon" href="\Photos/favicon.ico" />
+    <script src="JavaScript/JavaScript1.js"></script>
     <style type="text/css">
 
         .auto-style4 {
