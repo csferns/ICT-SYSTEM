@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" CodeFile="Master1.master.vb" Inherits="Master1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        body {
+            background-color: blue;
+        }
+        .auto-style1 {
+            width: 100%;
+            background-color: ghostwhite;
+            border: 1px solid black;
+        }
+        .auto-style2 {
+            height: 23px;
+        }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <table class="auto-style1">
+        <tr>
+            <td colspan="2" height="48px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="48px" class="auto-style2"></td>
+            <td class="auto-style2"></td>
+        </tr>
+        <tr>
+            <td colspan="2" height="48px">&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,173 @@
+﻿.title {
+    font-size: x-large;
+    padding: 1% 1%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.subheader {
+    font-size: large;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: large;
+    padding: 2% 1%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.header {
+    font-size: 100%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.blackheader {
+    width: auto;
+    height: 20%;
+}
+
+.blackheaderleft {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 10% 10%;
+    background-color: black;
+    text-align: center;
+    border:2px solid red;
+}
+
+.blackheaderright {
+    width: auto;
+    height: 15vh;
+    background-color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.blackheaderrightimage {
+    width: 15%;
+    height: 30%;
+    float: right;
+    background-color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.greenheader {
+    width: auto;
+    height: 10%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+.navigation {
+    width: auto;
+    height: 7vh;
+    margin: auto;
+    padding-left: 1%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    text-align: left;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline-block;
+    font-size: large;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+    padding: 0;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.headerimage {
+    height: 150px;
+    width: 15%;
+    float: right;
+    border: 2px solid red;
+    background: url("../../Photos/rmslogo.png");
+    
+}
+
+.homepagediv {
+    background-color: white;
+    width: auto;
+    margin: auto;
+    height: 10%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+ul.homepage {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+ul.homepage li {
+    display: inline;
+    font-size: large;
+    border-right: 2px solid black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+}
+
+.navigationtable {
+    background-color: white;
+    width: auto;
+    margin: auto auto 1px;
+    height: 6vh;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.navigationtablestyle {
+    background-color: white;
+    width: auto;
+    margin: auto auto;
+    height: 100%;
+}

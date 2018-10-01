@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="\CSS\Main System\orderrecordstyle.css">
+    <link rel="stylesheet" href="\CSS\General\headerstyle.css">
+    <link rel="stylesheet" href="\CSS\General\menubuttonstyle.css">
+    <link rel="stylesheet" href="\CSS\General\mainstyle.css">
+    <script src="\JavaScript/OrderRecordButtonCodes.js"></script>
+    <title>Order Record System</title>
+    <link rel="shortcut icon" href="\Photos/favicon.ico" />
+</head>
+<body>
+    <!-- Black header box -->
+    <div class="blackheaderright">
+        <img src="\Photos/rmslogo.png" alt="RMS Logo" align="right" style="width:10%;height:auto;">
+        <h1 class="title" align="left">Order Record System</h1>
+    </div>
+
+    <!-- Breadcrumbs -->
+    <div class="navigation">
+        <table>
+            <tr>
+                <th>
+                    <p class="header">You are here: </p>
+                </th>
+                <th>
+                    <ul class="breadcrumb">
+                        <li><a href="\Main System/mainhomepage.html">Homepage</a></li>
+                        <li>Record an Order</li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Top white box-->
+    <div class="topcontent">
+        <table>
+            <tr>
+                <td>
+                    <p class="whitebackground">Customer: </p>
+                </td>
+                <td>
+                    <select name="customer" id="javacustomer">
+                        <option value="..." selected="selected"></option>
+                        <option value="customer1">Customer 1</option>
+                        <option value="customer2">Customer 2</option>
+                    </select>
+                </td>
+                <td>
+                    <p class="whitebackground">Order Number:</p>
+                </td>
+                <td>
+                    <form>
+                        <input type="text" name="textordernumber" id="javaordernumber">
+                    </form>
+                </td>
+                <td>
+                    <p class="whitebackground">Order Date:</p>
+                </td>
+                <td>
+                    <form>
+                        <input type="text" name="orderdate" class="orderdate" id="javaorderdate">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Bottom left box -->
+    <div class="maincontentleft">
+        <!-- Order Input Table -->
+        <div class="tableproduct">
+            <p class="tableheader">Product</p>
+            <form>
+                <select id="javaproduct" name="product">
+                    <option value="..."></option>
+                    <option value="possystem">POS System</option>
+                    <option value="poskeyboard">POS Keyboard</option>
+                    <option value="posnetworkcard">POS Network Card</option>
+                    <option value="postouchscreen">POS Touch Screen</option>
+                    <option value="postilllock">POS Till Lock</option>
+                    <option value="warranty">Warranty</option>
+                    <option value="scallout">Service Callout</option>
+                </select>
+            </form>
+            <br />
+            <form>
+                <select id="javaproduct" name="product">
+                    <option value="..."></option>
+                    <option value="possystem">POS System</option>
+                    <option value="poskeyboard">POS Keyboard</option>
+                    <option value="posnetworkcard">POS Network Card</option>
+                    <option value="postouchscreen">POS Touch Screen</option>
+                    <option value="postilllock">POS Till Lock</option>
+                    <option value="warranty">Warranty</option>
+                    <option value="scallout">Service Callout</option>
+                </select>
+            </form>
+            <br />
+            <form>
+                <select id="javaproduct" name="product">
+                    <option value="..." selected="selected"></option>
+                    <option value="possystem">POS System</option>
+                    <option value="poskeyboard">POS Keyboard</option>
+                    <option value="posnetworkcard">POS Network Card</option>
+                    <option value="postouchscreen">POS Touch Screen</option>
+                    <option value="postilllock">POS Till Lock</option>
+                    <option value="warranty">Warranty</option>
+                    <option value="scallout">Service Callout</option>
+                </select>
+            </form>
+            <br />
+            <form>
+                <select id="javaproduct" name="product">
+                    <option value="..."></option>
+                    <option value="possystem">POS System</option>
+                    <option value="poskeyboard">POS Keyboard</option>
+                    <option value="posnetworkcard">POS Network Card</option>
+                    <option value="postouchscreen">POS Touch Screen</option>
+                    <option value="postilllock">POS Till Lock</option>
+                    <option value="warranty">Warranty</option>
+                    <option value="scallout">Service Callout</option>
+                </select>
+            </form>
+        </div>
+        <div class="tablequantity">
+            <p class="tableheader">Quantity</p>
+            <form>
+                <input class="quantityfield" name="quantity" type="text"><br />
+                <input class="quantityfield" name="quantity" type="text"><br />
+                <input class="quantityfield" name="quantity" type="text"><br />
+                <input class="quantityfield" name="quantity" type="text"><br />
+            </form>
+        </div>
+        <div class="tableprice">
+            <p class="tableheader">Price</p>
+            <form>
+                <input name="unitprice" type="text"><br />
+                <input name="unitprice" type="text"><br />
+                <input name="unitprice" type="text"><br />
+                <input name="unitprice" type="text"><br />
+            </form>
+        </div>
+    </div>
+
+    <!-- Bottom right box-->
+
+    <div class="buttonsleft">
+            <button class="orderrecord" onclick="saveOrder()">Save Order</button>
+            <button class="orderrecord" onclick="getInvoice()">Create Invoice</button>
+    </div>
+    <div class="buttonsright">
+            <button class="orderrecord" onclick="orderNumber()">Generate Order Number</button>
+            <button class="orderrecord" onclick="orderDate()">Fill Order Date</button>
+    </div>
+</body>
+</html>
