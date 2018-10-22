@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Legacy", "Legacy\", "{2A15E225-CFF0-4FF8-B94A-783C6E8A3933}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51783"
+		Debug.AspNetCompiler.PhysicalPath = "Legacy\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51783\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51783"
+		Release.AspNetCompiler.PhysicalPath = "Legacy\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51783\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51783"
+		SlnRelativePath = "Legacy\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Legacy", "Legacy", "{9CE43D1B-0165-43AD-B442-F0B650144475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legacy.Tests", "Legacy.Tests\Legacy.Tests.csproj", "{EC2FC4F3-5B88-40A0-B475-155A930C2186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{D18067CA-3E1E-41C4-A84C-51E34F187A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC ICT SYSTEM", "MVC ICT SYSTEM\MVC ICT SYSTEM.csproj", "{270F14A2-EB46-4A87-BF37-DFC4C89D3111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC ICT SYSTEM.Tests", "MVC ICT SYSTEM.Tests\MVC ICT SYSTEM.Tests.csproj", "{E3A9093B-F428-43E4-B6C0-27CA5874879F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A15E225-CFF0-4FF8-B94A-783C6E8A3933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A15E225-CFF0-4FF8-B94A-783C6E8A3933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A15E225-CFF0-4FF8-B94A-783C6E8A3933}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A15E225-CFF0-4FF8-B94A-783C6E8A3933}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EC2FC4F3-5B88-40A0-B475-155A930C2186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2FC4F3-5B88-40A0-B475-155A930C2186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2FC4F3-5B88-40A0-B475-155A930C2186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2FC4F3-5B88-40A0-B475-155A930C2186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270F14A2-EB46-4A87-BF37-DFC4C89D3111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270F14A2-EB46-4A87-BF37-DFC4C89D3111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270F14A2-EB46-4A87-BF37-DFC4C89D3111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270F14A2-EB46-4A87-BF37-DFC4C89D3111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A9093B-F428-43E4-B6C0-27CA5874879F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A9093B-F428-43E4-B6C0-27CA5874879F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A9093B-F428-43E4-B6C0-27CA5874879F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A9093B-F428-43E4-B6C0-27CA5874879F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A15E225-CFF0-4FF8-B94A-783C6E8A3933} = {9CE43D1B-0165-43AD-B442-F0B650144475}
+		{EC2FC4F3-5B88-40A0-B475-155A930C2186} = {9CE43D1B-0165-43AD-B442-F0B650144475}
+		{270F14A2-EB46-4A87-BF37-DFC4C89D3111} = {D18067CA-3E1E-41C4-A84C-51E34F187A41}
+		{E3A9093B-F428-43E4-B6C0-27CA5874879F} = {D18067CA-3E1E-41C4-A84C-51E34F187A41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D880D4E1-425A-4747-A0B5-ADDDCC9C223F}
+	EndGlobalSection
+EndGlobal
